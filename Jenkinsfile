@@ -9,8 +9,8 @@ pipeline {
 
     tools {
         // Updated names to match what Jenkins suggested earlier
-        jdk 'java17'   
-        maven 'maven3' 
+        jdk 'JAVA17'   
+        maven 'MAVEN' 
     }
 
     stages {
