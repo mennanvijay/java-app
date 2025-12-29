@@ -29,7 +29,7 @@ pipeline {
             when { expression { params.ACTION == 'deploy' } }
             steps {
                 // Ensure your Dockerfile name matches exactly (case-sensitive)
-                sh 'docker build -t my-java-app .'
+                sh 'docker build -t my-java-app:latest .'
             }
         }
 
