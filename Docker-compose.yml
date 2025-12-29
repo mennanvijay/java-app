@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   tomcat:
+    build: .             # <--- Add this line
     image: java-app:latest
     container_name: java-app
     ports:
       - "8081:8080"
-
